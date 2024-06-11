@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #067dfd;
+    overflow: hidden;
+    padding: 10px 20px;
+}
+
+.navbar .logo {
+    color: white;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar .menu {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .menu li {
+    display: inline;
+    padding: 10px 20px;
+}
+
+.navbar .menu li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar .menu li .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navbar .menu li:hover .dropdown-content {
+    display: block;
+}
+
+.navbar .menu li .dropdown-content a {
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: block;
+}
+
+.content {
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.doctor-card {
+    display: flex;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px auto;
+    max-width: 600px;
+}
+
+.doctor-card img {
+    width: 100px;
+    height: auto;
+}
+
+.doctor-info {
+    text-align: left;
+}
+
+.doctor-info h2 {
+    margin: 0;
+}
+
+.doctor-info p {
+    margin: 5px 0;
+}
